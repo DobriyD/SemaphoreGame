@@ -32,6 +32,7 @@ if (bestTime != Infinity) {
 function start() {
     for (const light of lights) {
         light.classList.remove('on');
+        light.classList.remove('go');
     }
 
     time.textContent = '00.000';
